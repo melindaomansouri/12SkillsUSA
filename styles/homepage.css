@@ -1,6 +1,12 @@
 .main {
     background-color: #cbdae6;
 }
+.main > .information {
+    text-align: center;
+    padding: 20px 500px;
+    font-size: 18px;
+    text-indent: 20px;
+}
 .footer {
     display: flex;
     justify-content: center;
