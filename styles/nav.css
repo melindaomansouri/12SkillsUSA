@@ -21,6 +21,15 @@
 
 .navigation a{
     color: #e8e2e1;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 3px;
+    transition: 0.5s;
+}
+
+.navigation a:hover{
+    letter-spacing: 6px;
+    color: white;
 }
 
 .logo {
