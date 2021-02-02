@@ -33,12 +33,17 @@
     color: white;
 }
 
-.logo h2{
+.logo {
     color: white;
     display: flex;
     justify-content: space-around;
-    width: 15%;
-    text-transform: uppercase;
+    width: 16%;
     font-size: 20px;
+    align-items: center;
+    font-family: 'Lora', serif;
+}
+
+.logo h2 {
     letter-spacing: 5px;
+    text-transform: uppercase;
 }
