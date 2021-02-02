@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #EC622E;
+    min-height: 10vh;
+}
+
+.header > .navigation {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    color: #e8e2e1;
+}
