@@ -53,6 +53,8 @@
 }
 .footer a:hover {
     color: #cbdae6;
+    letter-spacing: 3px;
+    transition: 0.5s;
 }
 .footer > .footer-links {
     color:#e8e2e1;
