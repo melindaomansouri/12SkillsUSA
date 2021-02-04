@@ -39,7 +39,8 @@
     font-size: 22px;
 }
 .footer > .pier {
-    color: #cbdae6;
+    color: white;
+    font-family: 'Lora', serif;
     padding: 10px;
 }
 .footer > .socials {
@@ -58,7 +59,11 @@
     letter-spacing: 3px;
     transition: 0.5s;
 }
+.footer > .time {
+    font-family: 'Patrick Hand', cursive;
+}
 .footer > .footer-links {
     color:#e8e2e1;
     padding: 10px;
+    font-family: 'Patrick Hand', cursive;
 }
