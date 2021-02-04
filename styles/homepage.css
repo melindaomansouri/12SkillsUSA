@@ -1,11 +1,23 @@
 .main {
     background-color: #cbdae6;
 }
+.main > .heading {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+.main > .line {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
 .main > .information {
     text-align: center;
-    padding: 20px 500px;
     font-size: 18px;
     text-indent: 20px;
+    font-family: 'Patrick Hand', cursive;
 }
 .footer {
     display: flex;
