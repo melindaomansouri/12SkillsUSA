@@ -7,6 +7,7 @@
     padding-top: 40px;
     padding-bottom: 5px;
     font-size: 30px;
+    font-family: 'Lora', serif;
 }
 .main > .line {
     display: flex;
@@ -17,7 +18,7 @@
     text-align: center;
     font-size: 18px;
     text-indent: 20px;
-    font-family: 'Lora', serif;
+    font-family: 'Patrick Hand', cursive;
     margin-left: 100px;
     margin-right: 100px;
     font-size: 24px;
@@ -27,6 +28,7 @@
     justify-content: center;
     font-size: 30px;
     padding-top: 50px;
+    font-family: 'Lora', serif;
 }
 .footer {
     display: flex;
