@@ -41,10 +41,10 @@
 }
 
 .rentals-section > .column-wrapper > .column :nth-child(2){
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 400;
     padding: 10px;
-    height: auto;
+    height: 100px;
 }
 
 .rentals-section > .column-wrapper > .column button {
