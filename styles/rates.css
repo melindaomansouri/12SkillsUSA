@@ -1,5 +1,5 @@
 .rentals-section {
-    height: 400px;
+    height: 600px;
     width: 100%;
     background-color: #cbdae6;
     color: black;
@@ -11,30 +11,45 @@
 
 .rentals-section > .column-wrapper {
     display: flex;
-    justify-content: space-around;
-    width: 40%;
+    justify-content: space-between;
+    width: 1000px;
+    height: 400px;
 }
 
 .rentals-section > .column-wrapper > .column {
     padding: 30px;
-    margin: 42px;
+    margin: 30px;
+    width: 25%;
     text-align: center;
     background-color: #FDB13D;
-    border-radius: 7px;
+    border-radius: 15px;
 }
 
-/*  */
-.rentals-section > .column-wrapper > .column {
-    
+/* <p> tag styles, ordered */
+
+.rentals-section > .column-wrapper > .column p{
+    margin: 10px 5px 20px;
+
+}
+
+.rentals-section > .column-wrapper > .column :nth-child(1){
+    font-size: 1.4em;
+    font-weight: 900;
+    padding: 10px;
+    height: auto;
+    transition: 1s;
 }
 
 .rentals-section > .column-wrapper > .column button {
-    background-color: #EC622E;
-    border: 1px solid #EC622E;
+    background-color: #ed3713;
+    border: 1px solid #ed3713;
     border-radius: 10px;
-    font-size: 1em;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.4em;
     padding: 8px 15px;
     transition: 1s;
+    cursor: pointer;
 }
 
 .rentals-section > .column-wrapper > .column button:hover {
